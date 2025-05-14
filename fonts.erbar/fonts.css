@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+.emri {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      flex-direction: column;
+      font-size: 18px;
+      line-height: 1.6;
+}
+
+.emri h1 {
+    font-family: "Coming Soon", cursive;
+}
+
+.emri p {
+    font-family: "Share Tech", sans-serif;
+    margin-top: 100px;
+    width: 100%;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.kontakto {
+      position: absolute;
+      bottom: 200px;
+      padding: 10px 25px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
